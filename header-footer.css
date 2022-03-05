@@ -1,0 +1,81 @@
+body {
+    background-color: #FDFAF6;;
+}
+header .header-top {
+    background-color: #BF9270;
+    padding: 1em 0;
+}
+header ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+}
+header .header-top ul li a {
+    color: #fff;
+    padding: 0.6em 1.5em;
+    font-size: 1rem;
+}
+
+#header-logo {
+    max-width: 150px;
+}
+header .header-top  .search-bar {
+    max-width: 25px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+/* footer css start*/
+
+footer p {
+    color: #dddddd;
+    font-weight: 400;
+}
+.footer-top {
+    background-color: #524A4E;
+    color: #ddd;
+}
+.footer-bottom {
+    background-color: #4c4549;
+    color: #dddddd;
+    padding: 1em 0;
+}
+.ft--social-links ul {
+    list-style: none;
+    padding: 0;
+}
+.ft--social-links ul li {
+    display: inline-block;
+    max-width: 40px;
+    margin: 0 0.2em;
+}
+.ft-links ul a,
+.contact-send a,
+.footer-bottom  a {
+    color: #dddddd;
+}
+.ft-links ul a:hover,
+.contact-send a:hover {
+    color: #ffffff;
+}
+.ft-links ul {
+    list-style: none;
+    padding: 0;
+}
+.ft-title {
+    max-width: 250px;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #ffffff1a;
+}
+.ft-title h3 {
+    color: #ffffff;
+}
+.footer-top .send-icon {
+    max-width: 36px;
+}
+
+.footer-top  .contact-send {
+    padding-top: 1em;
+    border-top: 2px solid #ffffff1a;
+    max-width: 250px;
+}
