@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="section.css">
     <link rel="stylesheet" href="section-sajib.css">
     <link rel="stylesheet" href="responsive.css">
+<!-- Link owlcarosel's CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <div class="header-area">
             <div class="header-wrap">
-                <div class="header-top">
+                <div class="header-top pos-rel">
                     <div class="wewrap">
                         <div class="we-row">
                             <div class="we-col-3">
@@ -27,12 +29,17 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="we-col-7">
+                            <div class="we-col-8 header-main-menu">
+                                <div class="mobile-menu">
+                                    <div class="mobile-menu-icon we-text-right">
+                                        <span class="mm-text we-up">menu</span>
+                                    </div>
+                                </div>
                                 <div class="header-menu">
-                                    <nav class="we-text-center">
+                                    <nav>
                                         <ul>
                                             <li>
-                                                <a href="#">Home</a>
+                                                <a href="home.html">Home</a>
                                             </li>
                                             <li>
                                                 <a href="#">Products</a>
@@ -50,7 +57,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <div class="we-col-2">
+                            <div class="we-col-1">
                                 <div class="header-search">
                                     <div class="search-bar we-text-right">
                                         <a href="#"><img src="img/user.png" alt=""></a>
@@ -76,6 +83,9 @@
                         <div class="we-col-2">
                             <div class="search-icon we-text-right">
                                 <button class="we-btn we-cap">search</button>
+                            </div>
+                            <div class="search-icon-img">
+                                <img src="img/search-interface-symbol.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -368,7 +378,7 @@
             </div>
         </div>
     </div>
-    <!-- Testimonial Section start-->
+        <!-- Testimonial Section start-->
         <div class="our-testimonial-section">
         <div class="our-testimonial-wrap wewrap">
             <div class="we-space">
@@ -377,7 +387,7 @@
                 <p class="we-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, molestiae provident praesentium dignissimos hic</p>
             </div>
             <div class="we-space">
-                <div class="we-row">
+                <div class="we-row owl-carousel">
                     <div class="we-col__6 our-single-testimonial">
                         <div class="client-info">
                             <div class="client-img we-text-center">
@@ -487,7 +497,7 @@
                        <h3 class="section-heading">Bringing New <span>IT Business</span></h3>
                        <h2 class="section-subheading">Solutions And Ideas<span></span></h2>
                         <p>Energistically implement ubiquitous mindshare functionalit Efficiently aggregate empowered experiences for integrated collaboration idea-sharing. Proactively intellectual.</p>
-                        <a class="we-btn btn-info">See More</a>
+                       <a href="#" style="margin-right: auto;" class="we-btn">See More</a>
                 </div>
                 
         </div>
@@ -502,7 +512,7 @@
                        <h3 class="section-heading">Bringing New <span>IT Business</span></h3>
                        <h2 class="section-subheading">Solutions And Ideas<span></span></h2>
                         <p>Energistically implement ubiquitous mindshare functionalit Efficiently aggregate empowered experiences for integrated collaboration idea-sharing. Proactively intellectual.</p>
-                        <a style="margin-left: auto;" class="we-btn btn-info right-auto">See More</a>
+                        <a href="#" style="margin-left: auto;" class="we-btn">See More</a>
                 </div>
                 <div class="we-col__6 info-img">
                     <img src="img/cyber-security.png" alt="">
@@ -512,14 +522,6 @@
 </section>
 
     <!-- info section end  -->
-
-
-
-
-
-
-
-
     <footer>
         <div class="footer-area">
             <div class="footer-top we-space-mini">
@@ -542,7 +544,7 @@
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Products</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                 </ul>
                             </div>
@@ -589,6 +591,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/jquery.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- owlcarosel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

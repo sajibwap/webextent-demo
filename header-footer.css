@@ -5,9 +5,8 @@ header .header-top {
     background-color: #BF9270;
     padding: 1em 0;
 }
-header ul {
+header .header-menu ul {
     list-style: none;
-    display: inline-flex;
     margin: 0;
 }
 header .header-top ul li a {
@@ -15,15 +14,32 @@ header .header-top ul li a {
     padding: 0.6em 1.5em;
     font-size: 1rem;
 }
-
+header .header-top ul li:last-child {
+    border-bottom: none;
+}
 #header-logo {
-    max-width: 150px;
+    max-width: 200px;
 }
 header .header-top  .search-bar {
     max-width: 25px;
     margin-left: auto;
     margin-top: 10px;
 }
+.mobile-menu .mm-text {
+    display: inline-block;
+    font-size: .8rem;
+    color: #fff7f7;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    line-height: 1.5;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.search-icon-img {
+    margin-left: auto;
+    max-width: 40px;
+}
+
 
 /* footer css start*/
 
@@ -69,6 +85,7 @@ footer p {
 }
 .ft-title h3 {
     color: #ffffff;
+    font-weight: 600;
 }
 .footer-top .send-icon {
     max-width: 36px;

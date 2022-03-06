@@ -3,11 +3,10 @@
 .we-heading h2 {
     font-weight: 600;
 }
-
-
+.pos-rel {
+    position: relative;
+}
 /* Global css ends */
-
-
 
 /* Home page search area css start */
 
@@ -54,7 +53,8 @@
 
 /* Home page blog start */
 
-.fixed-title h4 {
+.fixed-title h4,
+.contact-mini-title h3 {
     font-weight: 400;
 }
 .hblog-child-title h3 {
@@ -89,6 +89,25 @@
     display: block;
 }
 /* Home page blog end */
+/*our services start*/
+
+.we-col__4.our-secvices-child {
+    margin-top: 1.5em;
+}
+.our-secvices-child .os-icon {
+    max-width: 100px;
+    margin: 0 auto;
+}
+.our-secvices-child .os-child-inner {
+    background-color: #ffffff;
+    border-radius: .4em;
+    padding: 2em;
+    border: 1px solid rgb(231, 231, 231);
+
+}
+/*our services end*/
+
+
 
 /* Contact page  css start */
 
@@ -134,6 +153,7 @@
 .contact-area  {
     background-color: #ffffff;
     border-radius: .4em;
+    border: 1px solid rgb(231, 231, 231);
 }
 .contact-info-sidebar,
 .contact-aside-details,
@@ -142,19 +162,3 @@
 }
 /* Contact page css end */
 
-/*our services start*/
-
-.we-col__4.our-secvices-child {
-    margin-top: 1.5em;
-}
-.our-secvices-child .os-icon {
-    max-width: 100px;
-    margin: 0 auto;
-}
-.our-secvices-child .os-child-inner {
-    background-color: #ffffff;
-    border-radius: .4em;
-    padding: 2em;
-
-}
-/*our services end*/
