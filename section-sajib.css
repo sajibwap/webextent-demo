@@ -76,28 +76,21 @@ p.we-subheading {
     position: relative;
 }
 .client-info:before {
-    content: "\f10d";
-    font-family: FontAwesome;
-    font-size: 90px;
+    content: "";
+    background-image: url(./img/icon-quote.png);
     position: absolute;
-    top: 0;
-    right: -10px;
+    width: 65px;
+    height: 65px;
+    top: -27px;
+    right: -27px;
     text-align: center;
     color: #e5f0ff;
-    transform: rotate(180deg);
+    background-repeat: no-repeat;
 }
 .testimonial_text {
     font-size: 15px;
     font-weight: 400;
 }
-.testimonial_rating {
-    margin-top: 20px;
-}
-.testimonial-star .fa.active {
-    color: #599bff;
-}
-
-
 
 .our-testimonial-section .owl-dot span {
   width: 10px;
