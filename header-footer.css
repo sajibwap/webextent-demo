@@ -2,7 +2,8 @@ body {
     background-color: #FDFAF6;;
 }
 header .header-top {
-    background-color: #BF9270;
+    background: linear-gradient(to right, #7f41ff 0, #a341ff 51%, #7f41ff 100%);
+    background-size: 200% auto;
     padding: 1em 0;
 }
 header .header-menu ul {
@@ -13,6 +14,8 @@ header .header-top ul li a {
     color: #fff;
     padding: 0.6em 1.5em;
     font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 header .header-top ul li:last-child {
     border-bottom: none;
@@ -33,6 +36,7 @@ header .header-top  .search-bar {
     border-top: 1px solid;
     line-height: 1.5;
     margin-top: 1em;
+    margin-right: 1em;
     cursor: pointer;
 }
 .search-icon-img {
@@ -48,11 +52,11 @@ footer p {
     font-weight: 400;
 }
 .footer-top {
-    background-color: #524A4E;
+    background-color: #1c2b3c;
     color: #ddd;
 }
 .footer-bottom {
-    background-color: #4c4549;
+    background-color: #1a2838;
     color: #dddddd;
     padding: 1em 0;
 }
@@ -74,11 +78,11 @@ footer p {
 .contact-send a:hover {
     color: #ffffff;
 }
-.ft-links ul {
+footer .ft-links ul {
     list-style: none;
     padding: 0;
 }
-.ft-title {
+footer .ft-title {
     max-width: 250px;
     margin-bottom: 2em;
     border-bottom: 2px solid #ffffff1a;

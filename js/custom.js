@@ -1,9 +1,10 @@
 
         
-  (function($){
+(function($){
     $( document ).ready(function() {
 
-
+    /* RESPONSIVE MENU */
+    
         $(function() {
             $('.mobile-menu-icon .mm-text').click(function() {
                $(".header-menu").toggleClass('header-menu-fixed');
