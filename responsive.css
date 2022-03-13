@@ -8,6 +8,9 @@
     .we-heading h2 {
         font-size: 2.5rem;
     }
+    .we-heading-wrapper {
+        padding-bottom: 3em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -18,7 +21,8 @@
         max-width: 60px;
     }
     .sm-content-title h3,
-    .section-heading {
+    .section-heading,
+    .we-heading h2 {
         font-size: 1.6rem;
     }
     .welcome-heading h1 {
@@ -43,6 +47,10 @@
     .header-inner-top {
         flex-basis: 55.66%;
         width: 55.66%;
+    }
+    .our-tech-childs .we-tech-child {
+        flex-basis: 50%;
+        width: 50%;
     }
 }
 
@@ -103,5 +111,9 @@
     }
     .our-single-testimonial {
         padding: 15px!important;
+    }
+    .our-tech-childs .we-tech-child {
+        flex-basis: 100%;
+        width: 100%;
     }
 }

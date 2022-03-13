@@ -1,15 +1,18 @@
 /* Global css start */
 
 .we-heading h2 {
-    font-weight: 600;
+    font-weight: 700;
 }
 .pos-rel {
     position: relative;
 }
-span.gradient-text-color {
+.gradient-text-color {
     background: #F76E11;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.we-heading-wrapper {
+    padding-bottom: 1em;
 }
 /* Global css ends */
 
@@ -45,32 +48,36 @@ span.gradient-text-color {
 .fp-search-area  .search-inner input {
     height: 100%;
 }
+.search-icon-img {
+    cursor: pointer;
+}
 
 /* Home page search are css end */
 
 /* welcome Home start */
-
+.welcome-area::after {
+    background-color: #fdfaf6;
+    opacity: .3;
+}
 .welcome-main {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .welcome-heading h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: #202020;
 }
-.welcome-para {
-    font-size: 1rem;
-    font-weight: 400;
-}
-
 /* welcome Home ends */
 
 /* Home page blog start */
 
 .fixed-title h4,
+.fixed-title h3,
 .contact-mini-title h3 {
-    font-weight: 400;
+    font-weight: 400;    
+    font-family: 'Roboto', sans-serif;
 }
 
 .hblog-child-title h3 {
@@ -184,6 +191,10 @@ span.gradient-text-color {
     font-size: 2.5rem;
     margin: 0.6em 0;
 }
+
+.we-heading h2 {
+    font-size: 2.5rem;
+}
 .sm-child-main {
     background: linear-gradient(to right, #ffffff 0, #fdfaf6 51%, #7f41ff 100%);
     background-size: 200% auto; 
@@ -230,15 +241,8 @@ span.gradient-text-color {
     min-width:100%;
     display: block;
 }
-/*.our-single-testimonial:hover {
-    background-color: #00000005;
-    transition: .3s;
-    border: 4px solid #00000005;
-}
-.our-single-testimonial:hover .client-info:before {
-    color: #fff;
-    transition: .3s;
-}*/
+
+
 .client-info {
     display: flex;
     align-items: center;
@@ -249,7 +253,7 @@ span.gradient-text-color {
 .client-img {
     max-width: 110px;
     margin-right: 20px;
-    border: 4px solid #c0dbff;
+    border: 2px solid #f76e11;
     border-radius: 50%;
     height: 110px;
     width: 110px;
@@ -305,7 +309,7 @@ span.gradient-text-color {
   border-radius: 50%;
 }
 .our-testimonial-section .owl-dot.active span {
-  background-color: #599bff;
+  background-color: #f76e11;
 }
 .our-testimonial-section .owl-dots {
   text-align: center;
@@ -336,9 +340,6 @@ span.gradient-text-color {
     margin-top: 0;
     font-weight: 700;
 }
-/*.info-content .section-heading span {
-    color:#6c63ff;
-}*/
 
 .info-content p {
     font-size: 16px;
@@ -352,6 +353,7 @@ span.gradient-text-color {
 /* our info end */
 
 /* we exp area start */
+
 .we-exp-area .we-oe-child {
     border: 1px solid rgb(231, 231, 231);
     transform:scale(.94);
@@ -363,5 +365,25 @@ span.gradient-text-color {
 .we-exp-area .we-oe-txt h3 {
     font-size: 1.5rem;
 }
+
 /* we exp area end*/
+
+/** our technology start **/
+
+.our-technology .we-tech-child {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    transform: scale(.9);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 0.4em;
+}
+.our-technology .we-tech-child:hover {
+    border: 1px solid rgb(247 110 17);
+}
+
+/** our technology start **/
 

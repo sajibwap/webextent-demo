@@ -82,6 +82,9 @@ footer .ft-links ul {
     list-style: none;
     padding: 0;
 }
+footer .ft-links ul li {
+    margin: .5em 0;
+}
 footer .ft-title {
     max-width: 250px;
     margin-bottom: 2em;
@@ -93,9 +96,12 @@ footer .ft-title {
 }
 .footer-top .send-icon {
     max-width: 36px;
+    margin-right: 1em;
 }
 
-.footer-top  .contact-send {
+.footer-top .contact-send {
+    display: flex;
+    align-items: center;
     padding-top: 1em;
     border-top: 2px solid #ffffff1a;
     max-width: 250px;

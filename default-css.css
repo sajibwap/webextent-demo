@@ -46,7 +46,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
-    font-weight: 600;
+    font-weight: 700;
   }
   
   
@@ -422,7 +422,7 @@
   
   h1,h2,h3,h4,h5,h6 {
     color: #404040;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   a {
@@ -1440,13 +1440,13 @@
   .we-btn {
     padding: 10px 15px;
     border-radius: 3px;
-    font-weight: 300;
     background: linear-gradient(to right, #7f41ff 0, #a341ff 51%, #7f41ff 100%);
     background-size: 200% auto;
     color: #ffffff;
     margin-top: 1em;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
   
   .we-btn,
