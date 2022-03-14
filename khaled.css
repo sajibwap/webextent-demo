@@ -78,8 +78,11 @@
 }
 
 /* facility */
+.facility .we-space {
+    padding-top: 0;
+}
 .facility-top{
-    padding: 3em;
+    padding: 0 3em 3em 3em;
     border-radius: 0.4em;
     border: 1px solid #E7E7E7;
 }

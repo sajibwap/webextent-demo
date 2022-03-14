@@ -19,6 +19,7 @@
 /* Home page search area css start */
 .fp-search-inner {
     margin-top: 2em;
+    margin-bottom: 1em;
 }
 .fp-search-area .search-bar {
     padding: .6em 1em;
@@ -164,6 +165,7 @@
 }
 .contact-aside-details ul li {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 1em;
 }
@@ -255,7 +257,7 @@
     margin-right: 20px;
     border: 2px solid #f76e11;
     border-radius: 50%;
-    height: 110px;
+    height: auto;
     width: 110px;
     padding: 2px;
 }
@@ -267,7 +269,6 @@
 }
 
 .client-title h2 {
-    font-size: 18px;
     line-height: 26px;
     font-weight: 700;
     text-transform: capitalize;
@@ -276,7 +277,7 @@
 .client-title span {
     display: block;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 4px;
     color: #599bff;
 }
